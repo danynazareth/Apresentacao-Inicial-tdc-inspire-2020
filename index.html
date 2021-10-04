@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Basic Template VR</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+     <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+  </head>
+  <body>
+    <a-scene >
+      
+        <a-assets>
+          <img id="slide1" src="img/Slide1.jpg">
+          <img id="slide2" src="img/Slide2.jpg">
+          <img id="slide3" src="img/Slide3.jpg">
+          <img id="slide4" src="img/Slide4.jpg">
+          <img id="slide5" src="img/Slide5.jpg">
+          
+          
+          
+        </a-assets>
+  
+      <a-camera positon="-7.115  3.2 7.778" scale="2 2 2" camera="active: false" position="-9.83356182070667 1.6 3.725261103731812" rotation="-6.875493541569885 26.012283898939348 0" velocity="100.0 200.0 0" look-controls="" wasd-controls="" data-aframe-inspector-original-camera="" visible="">
+          
+        
+          
+        </a-camera>
+
+         
+        
+
+        <a-camera positon="0 1.6 0">
+          <a-cursor color="red"> </a-cursor>
+        </a-camera>
+        
+
+      
+<a-image src="#slide1" position="-19.38241 13 -21.7307" scale="6 6 2" height="4" width="8" material="" geometry="" rotation="0 29.999999999999996 0"></a-image>
+
+
+<a-image src="#slide2" position="6.70351 4.8 -4.58569" scale="2 2 2" height="4" width="8" rotation="0 300 0" material="" geometry=""></a-image>
+
+
+
+<a-image src="#slide3" position="6.61025 4.8 7.79665" scale="2 2 2" height="4" width="8" rotation="0 239.99999999999997 0" material="" geometry=""></a-image>
+
+
+
+<a-image src="#slide4" position="-4.9795 4.8 14.3222" scale="2 2 2" height="4" width="8" rotation="0 180 0" material="" geometry=""></a-image>
+
+
+
+<a-image src="#slide5" position="-16.45883 4.8 7.79263" scale="2 2 2" height="4" width="8" rotation="0 119.99999999999999 0" material="" geometry=""></a-image>
+
+
+
+
+
+
+
+
+
+
+   
+        <a-entity environment="preset: threetowers; groundColor: #445; grid: cross"></a-entity>
+    </a-scene>
+  </body>
+</html>
